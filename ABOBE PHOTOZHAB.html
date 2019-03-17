@@ -8,30 +8,39 @@
 
 <body>
     <div class="head"></div>
-    <div class="canv">
-        <canvas id="canv" width="1000" height="600"></canvas>
-    </div>
-    <div class="tools">
-        <div class="coordinates">
-            <p id="x"><b>x: </b> <span id="xCoord"></span></p>
-            <p id="y"><b>y: </b> <span id="yCoord"></span></p>
-            <br>
+    <div class="workArea">
+        <div class="panel">
             <div>
                 <button class="toolButton" id='brush'></button>
                 <button class="toolButton" id='eraser'></button>
                 <button class="toolButton" id='rectangle'></button>
-                <input type="color" id="color">
-                <br>
-                <select id='sizeSelect'>
-                    <option>5</option>
-                    <option>10</option>
-                    <option>15</option>
-                    <option>20</option>
-                </select>
+            </div>
+            <span class="title">Инструменты</span>
+        </div>
+        <div class="panel">
+            <input type="color" id="color">
+            <span class="title">Цвет</span>
+        </div>
+        <div class="panel">
+            <select id='sizeSelect'>
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+            </select>
+            <span class="title">Резмер</span>
+        </div>
+
+        <div class="canv">
+            <canvas id="canv" width="1000" height="600"></canvas>
+        </div>
+        <div class="tools">
+            <div class="coordinates">
+                <p id="x"><b>x: </b> <span id="xCoord"></span></p>
+                <p id="y"><b>y: </b> <span id="yCoord"></span></p>
             </div>
         </div>
     </div>
-
 
     <script src="script.js"></script>
 </body>

@@ -101,10 +101,12 @@ var drawLines = function (evt) {
         ctx.beginPath();
         if (system.currentTool == 'brush') {
             ctx.fillStyle = system.currentColor;
+            ctx.arc(xCoord.innerText, yCoord.innerText, system.brushSize, 0, 2 * Math.PI);
+            ctx.fill();
         } else if (system.currentTool == 'eraser') {
             ctx.fillStyle = '#ffffff';
+            ctx.fillRect(xCoord.innerText, yCoord.innerText, system.brushSize, system.brushSize)
         }
-        ctx.fillRect(xCoord.innerText, yCoord.innerText, system.brushSize, system.brushSize);
     }
 };
 
