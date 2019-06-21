@@ -1,0 +1,161 @@
+body
+{
+    background-color: #eef0f1;
+    margin: 0;
+}
+
+h1,
+h3
+{
+    text-align: center
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header
+{
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(img/back.png);
+}
+.content
+{
+    min-height: 600px;
+    padding: 10px;
+    border-width: 0px;
+    border-style:dashed;
+    border-color: gray;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    background-image: url(img/texture.png);
+    
+}
+.footer
+{
+    text-align: right;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-right: 10%;
+    background-image: url(img/back.png);
+}
+
+.btn_buy:active
+{
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+
+.btn-cart{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn-cart:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.product-item{
+    display: inline-block;
+    width: 210px;
+    height: 280px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+    background-color: RGBA(206,212,214,0.7);
+}
+.buy-btn{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+.buy-btn:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+img{
+    border: 1px solid gray;
+}
+.div-cart {
+    width: 250px;
+    min-height: 10px;
+    background-color: white;
+    position: absolute;
+    right: 11%;
+    top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.cart-item{
+    border: 1px gray dashed;
+    padding: 5px;
+}
+
+.cart-total{
+    float: right;
+    padding: 5px;
+}
+.cart-item-title{
+    display: inline-block;
+    width: 100px;
+}
+.cart-item-count{
+    display: inline-block;
+    width: 70px;
+}
+.cart-item-cost{
+    display: inline-block;
+    width: 50px;
+}
+
+.btn-change-count{
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background: transparent;
+    padding: 0;
+    align-content: center;
+}
+.btn-change-count:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.btn-clear{
+    float: left;
+    margin: 5px;
+}
+
+.no-goods{
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+}
+.search-form{
+    margin: 10px;
+    display: inline-block;
+}
+.cart{
+    display: inline-block;
+}
+.cart-position{
+    display: inline-block;
+    float: right;
+}
+.error{
+    background-color: black;
+    color: red;
+    margin:10px;
+    padding:10px;
+    font-size:16px;
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="js/ErrorComponent.js" defer></script>
+    <script src="js/ProductsComponent.js" defer></script>
+    <script src="js/CartComponent.js" defer></script>
+    <script src="js/SearchComponent.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <title>Shop</title>
+</head>
+<body>
+<div class="container">
+    <div id="app">
+        <div class="header">
+            <div class="cart-position">
+                <search></search>
+                <cart ref="cart"></cart>
+            </div>
+        </div>
+        <div class="content">
+            <error ref="error"></error>
+            <products ref="products"></products>
+        </div>
+    </div>
+    <div class="footer">&copy;Все права защищены</div>
+</div>
+</body>
+</html>

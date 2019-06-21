@@ -1,0 +1,45 @@
+{
+    "total": 8,
+    "last_change": "2019-06-21 20:12:58",
+    "events": [
+        {
+            "action": "change",
+            "product_id": 124,
+            "ts": "2019-06-21 20:12:03"
+        },
+        {
+            "action": "change",
+            "product_id": 124,
+            "ts": "2019-06-21 20:12:03"
+        },
+        {
+            "action": "add",
+            "product_id": 457,
+            "ts": "2019-06-21 20:12:31"
+        },
+        {
+            "action": "add",
+            "product_id": 456,
+            "ts": "2019-06-21 20:12:34"
+        },
+        {
+            "action": "delete",
+            "product_id": 456,
+            "ts": "2019-06-21 20:12:39"
+        },
+        {
+            "action": "clear",
+            "ts": "2019-06-21 20:12:48"
+        },
+        {
+            "action": "add",
+            "product_id": 457,
+            "ts": "2019-06-21 20:12:56"
+        },
+        {
+            "action": "change",
+            "product_id": 457,
+            "ts": "2019-06-21 20:12:58"
+        }
+    ]
+}
